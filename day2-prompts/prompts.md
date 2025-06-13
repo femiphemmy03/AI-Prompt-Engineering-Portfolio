@@ -5,13 +5,13 @@
 
 **Prompt**: "Act as a Python tutor and generate a beginner-friendly code snippet to sort a list of numbers, with a 50-word explanation."
 
-**Output**: # Create a list of numbers
+**Output**:  Create a list of numbers
 numbers = [5, 2, 9, 1, 7]
 
-# Sort the list in ascending order
+ Sort the list in ascending order
 numbers.sort()
 
-# Print the sorted list
+Print the sorted list
 print("Sorted numbers:", numbers)
 
 Explanation:
@@ -72,13 +72,13 @@ Why: Bar charts are perfect for comparing sales volumes across regions.
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load data
+Load data
 df = pd.read_csv('sales_by_region.csv')
 
-# Group by region and sum sales
+ Group by region and sum sales
 region_sales = df.groupby('Region')['Sales'].sum().sort_values()
 
-# Plot
+ Plot
 region_sales.plot(kind='barh', color='skyblue')
 plt.title('Total Sales by Region')
 plt.xlabel('Sales Amount')
@@ -86,10 +86,10 @@ plt.ylabel('Region')
 plt.tight_layout()
 plt.show()
 
-# Calculate share
+ Calculate share
 region_sales = df.groupby('Region')['Sales'].sum()
 
-# Plot
+Plot
 region_sales.plot(kind='pie', autopct='%1.1f%%', startangle=140, figsize=(6,6))
 plt.title('Sales Distribution by Region')
 plt.ylabel('')
@@ -97,10 +97,10 @@ plt.show()
 
 2. Pie Chart – Proportion of Sales per Region
 Why: Pie charts help show each region’s percentage share of total sales.
-# Calculate share
+Calculate share
 region_sales = df.groupby('Region')['Sales'].sum()
 
-# Plot
+ Plot
 region_sales.plot(kind='pie', autopct='%1.1f%%', startangle=140, figsize=(6,6))
 plt.title('Sales Distribution by Region')
 plt.ylabel('')
