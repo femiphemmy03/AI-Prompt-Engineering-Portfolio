@@ -1,2 +1,2 @@
 # AI-Prompt-Engineering-Portfolio
-Portfolio showcasing AI prompt engineering projects and outputs
+This repository showcases my AI prompt engineering projects, demonstrating skills in crafting effective prompts for generative AI models.
